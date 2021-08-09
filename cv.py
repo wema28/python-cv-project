@@ -67,8 +67,9 @@ while True:
 # skills
 document.add_heading("Skills")
 skills = input("What is your best Skill? ")
-skills = input("What is your other Skill? ")
+skills2 = input("What is your other Skill? ")
 document.add_paragraph(skills, style='List Bullet')
+document.add_paragraph(skills2, style='List Bullet')
 
 while True:
     has_more_skills = input("Do you have more Skills? Yes or No? ")
