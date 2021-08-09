@@ -1,11 +1,6 @@
 from docx import Document
 from docx.shared import Inches
 import docx
-import pyttsx3 
-
-def speak(text):
-    pyttsx3.speak(text)
-
 
 document = Document()
 
