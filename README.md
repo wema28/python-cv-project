@@ -1,1 +1,3 @@
-# python-cv-project
+# Python CV Project
+## Installation
+'python intall -r requirements.txt'
